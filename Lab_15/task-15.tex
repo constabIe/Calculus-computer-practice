@@ -1,0 +1,1386 @@
+\documentclass[11pt]{report}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\oddsidemargin=-19mm
+\topmargin=-30mm
+\textheight 26cm
+\hsize 18cm
+\textwidth 20cm
+\begin{document}
+
+\pagestyle{empty}
+{\bf Индивидуальное задание. Экстремум функции нескольких переменных}
+
+Найти точки экстремума функции $f(x, y, z)$
+
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $0$
+\begin{align*}
+    f(x, y, z) = - 16 x^{2} - 15 x y + 19 x + 19 y^{2} + 2 y z - 17 y - 4 z^{2} + 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $1$
+\begin{align*}
+    f(x, y, z) = - x^{2} + 3 x y + 11 x z + 7 x - 20 y^{2} - 8 y z + 3 y + 11 z^{2} - 8 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $2$
+\begin{align*}
+    f(x, y, z) = - 17 x^{2} + 9 x y + 10 x z + 12 x + 13 y^{2} - y z + 2 y - 3 z^{2} - 12 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $3$
+\begin{align*}
+    f(x, y, z) = - 6 x^{2} - 12 x y + 3 x z - 4 x - 17 y^{2} + 13 y z + 19 y + 2 z^{2} - 10 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $4$
+\begin{align*}
+    f(x, y, z) = - 12 x y - 13 x z - 6 x + 19 y^{2} + 20 y z - 14 y - 17 z^{2} + 19 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $5$
+\begin{align*}
+    f(x, y, z) = - 19 x^{2} - 16 x y + x z - 9 x - 10 y^{2} + 9 y z - 14 y + 5 z^{2} - 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $6$
+\begin{align*}
+    f(x, y, z) = - 11 x^{2} + 11 x y - 20 x z - 18 x + y^{2} - 20 y z - 15 y - 11 z^{2} - 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $7$
+\begin{align*}
+    f(x, y, z) = - 11 x^{2} + 14 x y - 9 x z + 8 x + 12 y^{2} - 4 y z + 6 y - z^{2} - 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $8$
+\begin{align*}
+    f(x, y, z) = - 8 x^{2} - 16 x y + 16 x z + 2 x - 10 y^{2} + 6 y z + 15 y - 2 z^{2} + 11 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $9$
+\begin{align*}
+    f(x, y, z) = 5 x^{2} + 15 x y - 17 x z - 4 x - 17 y^{2} - 20 y z + 3 z^{2} - 10 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $10$
+\begin{align*}
+    f(x, y, z) = - 19 x^{2} - 11 x y + 6 x z - 18 x - 7 y^{2} + 3 y z - 16 y + 20 z^{2} - 13 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $11$
+\begin{align*}
+    f(x, y, z) = - 17 x^{2} - 2 x y + 12 x z - 19 x - 18 y^{2} + 5 y z - 12 y + 17 z^{2} + 4 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $12$
+\begin{align*}
+    f(x, y, z) = 16 x^{2} + 14 x z - 5 x - 18 y^{2} + 16 y z + 19 y - 6 z^{2} + 20 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $13$
+\begin{align*}
+    f(x, y, z) = - 11 x^{2} - 3 x y + 18 x z + 8 x - 8 y^{2} - 12 y z + 2 y - 7 z^{2} + 9 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $14$
+\begin{align*}
+    f(x, y, z) = 14 x^{2} + 16 x y - 15 x z - 7 x - 10 y^{2} - 4 y z - 9 y - 7 z^{2} - 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $15$
+\begin{align*}
+    f(x, y, z) = 3 x^{2} + 17 x y + 17 x z - 19 x - 15 y^{2} - 2 y z + 14 y + 5 z^{2} + 11 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $16$
+\begin{align*}
+    f(x, y, z) = - 17 x^{2} + 15 x y - 20 x z + 17 x + 16 y^{2} + 11 y z + 6 y - 7 z^{2} - 2 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $17$
+\begin{align*}
+    f(x, y, z) = 7 x^{2} - 18 x y + 17 x z - 18 x - 14 y^{2} + 2 y z - 19 y - 6 z^{2} + 4 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $18$
+\begin{align*}
+    f(x, y, z) = - 10 x^{2} + 19 x y + 13 x z + x + 18 y^{2} - 13 y z + 16 y - 7 z^{2} + 7 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $19$
+\begin{align*}
+    f(x, y, z) = - 15 x y - x z - 7 x + 19 y^{2} + 3 y z + 13 y - 18 z^{2} - 4 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $20$
+\begin{align*}
+    f(x, y, z) = - 5 x^{2} - 9 x y + 5 x z + 3 x + y^{2} + 18 y z - 19 y - 13 z^{2} - 4 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $21$
+\begin{align*}
+    f(x, y, z) = - 15 x^{2} + 16 x y - 17 x z - 16 x + 8 y^{2} - 10 y z - 8 y - 11 z^{2} - 6 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $22$
+\begin{align*}
+    f(x, y, z) = - 20 x^{2} + 13 x y - 19 x z - 17 x + 17 y^{2} - 10 y z + y - 20 z^{2} - 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $23$
+\begin{align*}
+    f(x, y, z) = x^{2} + 14 x y + 2 x z - 10 y^{2} - 20 y z + 13 y - 13 z^{2} + 2 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $24$
+\begin{align*}
+    f(x, y, z) = 14 x^{2} + 7 x y - 20 x z + 5 x - 10 y^{2} - 10 y z - 18 y - 8 z^{2} + 19 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $25$
+\begin{align*}
+    f(x, y, z) = 13 x^{2} + 12 x y - 5 x z - 18 x - 14 y^{2} - 9 y z - y - 3 z^{2} + 2 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $26$
+\begin{align*}
+    f(x, y, z) = 16 x^{2} - 3 x y - 20 x z + 9 x + 14 y^{2} + 15 y z + 19 y + 12 z^{2} - 20 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $27$
+\begin{align*}
+    f(x, y, z) = 6 x^{2} - 15 x y + 6 x z - 15 x - 8 y^{2} + 8 y z + 7 y - 5 z^{2} - 18 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $28$
+\begin{align*}
+    f(x, y, z) = 6 x^{2} + 11 x y - 18 x z + 14 x - 18 y^{2} - 15 y z + 16 y - 15 z^{2} - 5 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $29$
+\begin{align*}
+    f(x, y, z) = - 19 x^{2} + 6 x y - 8 x z - 4 x + 14 y^{2} - 3 y z - 4 y - 3 z^{2} - 10 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $30$
+\begin{align*}
+    f(x, y, z) = 19 x^{2} + 5 x y - 19 x z - 12 x + 9 y^{2} + 4 y z + 4 y + 19 z^{2} + 6 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $31$
+\begin{align*}
+    f(x, y, z) = - 12 x^{2} - 10 x y - x z - 10 x + 3 y^{2} + 19 y z - 4 y + z^{2} - 6 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $32$
+\begin{align*}
+    f(x, y, z) = - 20 x^{2} - x y + 3 x z - 14 x - 16 y^{2} + 16 y z - 16 y + 2 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $33$
+\begin{align*}
+    f(x, y, z) = 10 x^{2} + 17 x y + 15 x z - 12 x - 3 y^{2} - 10 y z - 9 y - 15 z^{2} - 20 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $34$
+\begin{align*}
+    f(x, y, z) = 9 x^{2} - 15 x y - 16 x z - 14 x - 8 y^{2} + 3 y + 3 z^{2} - 17 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $35$
+\begin{align*}
+    f(x, y, z) = - 9 x^{2} + 14 x y + 12 x z - 5 x - 2 y^{2} + 8 y z + 9 y + 8 z^{2} + 11 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $36$
+\begin{align*}
+    f(x, y, z) = - 15 x^{2} + 4 x y - 14 x z + 3 x + y^{2} + 12 y z + 16 y - 6 z^{2} - 9 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $37$
+\begin{align*}
+    f(x, y, z) = - 13 x^{2} - x y + 6 x z + 6 x + 19 y^{2} - 17 y z + 17 y - 20 z^{2} - 8 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $38$
+\begin{align*}
+    f(x, y, z) = 17 x^{2} - 4 x y - 11 x z - 2 x - 4 y^{2} - 9 y z - 14 y - 20 z^{2} - 2 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $39$
+\begin{align*}
+    f(x, y, z) = - 2 x^{2} - 5 x y + 12 x z - 8 x - 11 y^{2} + 8 y z - 13 y + 2 z^{2} + 4 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $40$
+\begin{align*}
+    f(x, y, z) = - 15 x^{2} - 12 x y + 4 x z + 4 x - 14 y^{2} + 19 y z + y + 12 z^{2} - 9 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $41$
+\begin{align*}
+    f(x, y, z) = - 19 x^{2} + 18 x y + 3 x z + 19 x - 19 y^{2} + 10 y z + y + 15 z^{2} + 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $42$
+\begin{align*}
+    f(x, y, z) = 9 x^{2} - 12 x y - 16 x z - 4 y^{2} + 5 y z + 5 y - 18 z^{2} - 5 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $43$
+\begin{align*}
+    f(x, y, z) = - 3 x^{2} - 20 x y - 18 x z - 2 x - 11 y^{2} + 13 y z + 8 y + 5 z^{2} - 16 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $44$
+\begin{align*}
+    f(x, y, z) = - 2 x^{2} - 17 x y + 18 x z - 15 y^{2} + y z + 9 y + 19 z^{2} - 11 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $45$
+\begin{align*}
+    f(x, y, z) = - 17 x^{2} + 2 x y - 12 x z - 7 x + 2 y^{2} - 20 y z + 5 y + 6 z^{2} + 9 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $46$
+\begin{align*}
+    f(x, y, z) = 16 x^{2} - 19 x y - 10 x z - 18 x - 2 y^{2} + 15 y z - 7 y - 13 z^{2} + 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $47$
+\begin{align*}
+    f(x, y, z) = - 6 x^{2} + 5 x y - 7 x + 14 y^{2} - 4 y z - 11 y - 10 z^{2} - 20 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $48$
+\begin{align*}
+    f(x, y, z) = 7 x^{2} - 7 x y + 14 x z - 11 x - 3 y^{2} - 3 y z - 18 y - 9 z^{2} + 10 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $49$
+\begin{align*}
+    f(x, y, z) = - 13 x^{2} + 17 x y + 7 x z - 4 x + y^{2} + 18 y z + 6 y - 7 z^{2} + 12 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $50$
+\begin{align*}
+    f(x, y, z) = 9 x^{2} - 19 x y + x z + 5 x - 11 y^{2} - 4 y z - 16 y - 11 z^{2} - 8 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $51$
+\begin{align*}
+    f(x, y, z) = 9 x^{2} - 11 x y + 4 x z - 2 x + 8 y^{2} + 12 y z - 14 y + 18 z^{2} - 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $52$
+\begin{align*}
+    f(x, y, z) = - 8 x^{2} - 14 x y - 5 x z - 11 x + 19 y^{2} - 5 y z + 20 y - 15 z^{2} + 19 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $53$
+\begin{align*}
+    f(x, y, z) = 10 x^{2} - 17 x y + 11 x z + 14 x - 14 y^{2} + 12 y z + 19 y - 20 z^{2} + 8 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $54$
+\begin{align*}
+    f(x, y, z) = 11 x^{2} + 17 x y + 12 x z - 10 x - 3 y^{2} + 12 y z - 6 y + 3 z^{2} - 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $55$
+\begin{align*}
+    f(x, y, z) = - 16 x^{2} - 9 x y - 18 x z - 16 x - 2 y^{2} + 6 y z + 9 y + 15 z^{2} + 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $56$
+\begin{align*}
+    f(x, y, z) = - 16 x^{2} - 9 x y - 7 x z - 14 x + 10 y^{2} + 16 y z + 7 y + z^{2} - 20 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $57$
+\begin{align*}
+    f(x, y, z) = 3 x^{2} + 6 x y - 9 x z - 5 x - 11 y^{2} + 19 y z + 8 y - 9 z^{2} + 4 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $58$
+\begin{align*}
+    f(x, y, z) = 12 x^{2} + 8 x y - 17 x z - 7 x - 9 y^{2} - 9 y z - y - 18 z^{2} + 19 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $59$
+\begin{align*}
+    f(x, y, z) = - 4 x^{2} - 12 x y + 8 x z + 3 x - 17 y^{2} + 3 y z + 3 y + 17 z^{2} + 9 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $60$
+\begin{align*}
+    f(x, y, z) = 19 x^{2} - 8 x y - 7 x z - 11 x - 10 y^{2} + 17 y z - 2 y - 6 z^{2} + 16 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $61$
+\begin{align*}
+    f(x, y, z) = - 20 x^{2} + x y + x z + 5 x - 11 y^{2} - 8 y z + 10 y + 6 z^{2} - 18 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $62$
+\begin{align*}
+    f(x, y, z) = - 11 x^{2} + 12 x y + 4 x - 11 y^{2} - 7 y z - 7 y + 17 z^{2} + 17 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $63$
+\begin{align*}
+    f(x, y, z) = 10 x^{2} + 7 x y - 11 x z - 17 x + 15 y^{2} - 20 y z + 10 y + 19 z^{2} - 12 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $64$
+\begin{align*}
+    f(x, y, z) = - 7 x^{2} - 9 x y + 7 x z - 15 x - 18 y^{2} + 2 y z + 8 y + 7 z^{2} - 13 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $65$
+\begin{align*}
+    f(x, y, z) = 19 x^{2} - 12 x z + 12 x + 14 y^{2} - 6 y z - 17 y + 13 z^{2} + 17 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $66$
+\begin{align*}
+    f(x, y, z) = - 13 x^{2} + 11 x y + x z + 15 x - y^{2} - 5 y z - 9 y - 17 z^{2} - 16 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $67$
+\begin{align*}
+    f(x, y, z) = 15 x^{2} - 10 x y + 9 x z - 3 x - 17 y^{2} + 7 y z - 18 y - 19 z^{2} - 20 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $68$
+\begin{align*}
+    f(x, y, z) = - 9 x^{2} - 8 x y - 14 x z + 4 x - 10 y^{2} + 15 y z - 18 y + 8 z^{2} - 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $69$
+\begin{align*}
+    f(x, y, z) = - 14 x^{2} + 11 x y + 12 x z - 9 x - y^{2} - 19 y z - 4 y - 5 z^{2} - 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $70$
+\begin{align*}
+    f(x, y, z) = 3 x^{2} - 4 x y - 12 x z - 3 x - 14 y^{2} - 7 y z - 19 y + z^{2} - z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $71$
+\begin{align*}
+    f(x, y, z) = - 9 x^{2} + 18 x y - 16 x z + 19 x + 3 y^{2} - 17 y z - 17 y + 13 z^{2} + 10 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $72$
+\begin{align*}
+    f(x, y, z) = 6 x^{2} - 8 x y - 17 x z + 11 x + 14 y^{2} + 10 y z + 14 z^{2} - 19 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $73$
+\begin{align*}
+    f(x, y, z) = 14 x^{2} + 12 x y + 17 x z + 12 x - 19 y^{2} - 9 y z - 8 z^{2} + 6 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $74$
+\begin{align*}
+    f(x, y, z) = - 7 x^{2} - 8 x y + 18 x z - 12 x - 5 y^{2} + 20 y z + 18 y + 16 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $75$
+\begin{align*}
+    f(x, y, z) = - 4 x^{2} + 5 x y - 5 x z - 7 x - 13 y^{2} - 20 y + z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $76$
+\begin{align*}
+    f(x, y, z) = - 19 x^{2} + x y + 3 x z + 12 x - 2 y^{2} - 10 y z - 13 y + 15 z^{2} - 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $77$
+\begin{align*}
+    f(x, y, z) = - 10 x^{2} + 16 x y - x z - 15 x - 6 y^{2} + 15 y z - 12 y - 2 z^{2} - 11 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $78$
+\begin{align*}
+    f(x, y, z) = - 10 x^{2} - 15 x y - 9 x z - 16 x + 8 y^{2} - y z + 14 y - 8 z^{2} - 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $79$
+\begin{align*}
+    f(x, y, z) = 2 x^{2} + 3 x y + 10 x z - 4 x - 14 y^{2} + 4 y z + 20 y + 8 z^{2} - 2 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $80$
+\begin{align*}
+    f(x, y, z) = 10 x^{2} - 2 x z - 9 x + 9 y^{2} + 9 y z - 18 y + 3 z^{2} + 16 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $81$
+\begin{align*}
+    f(x, y, z) = 10 x^{2} - 2 x y + 16 x z + 10 x - 11 y^{2} - 8 y z + 13 y - 17 z^{2} - 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $82$
+\begin{align*}
+    f(x, y, z) = 17 x^{2} - 14 x y + 20 x z + 10 x - 17 y^{2} - 16 y z + 10 y - 16 z^{2} - 5 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $83$
+\begin{align*}
+    f(x, y, z) = - 6 x^{2} + 16 x y - 2 x z + 18 x - 9 y^{2} - 11 y z + 14 y - 16 z^{2} + 17 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $84$
+\begin{align*}
+    f(x, y, z) = 9 x^{2} - x y - 15 x z + 4 x - 19 y^{2} + 19 y z + 5 y - 5 z^{2} - 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $85$
+\begin{align*}
+    f(x, y, z) = 10 x^{2} - 20 x y - x z + 3 x + 17 y^{2} + 3 y z - 19 y + 13 z^{2} - 17 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $86$
+\begin{align*}
+    f(x, y, z) = - 12 x^{2} + 4 x y + 13 x z - 14 x - 2 y^{2} - 2 y z + 2 y - z^{2} - 7 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $87$
+\begin{align*}
+    f(x, y, z) = - 16 x^{2} + 2 x y + 17 x z + 16 x - 20 y^{2} + 20 y z - 8 y + 4 z^{2} + 10 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $88$
+\begin{align*}
+    f(x, y, z) = 12 x^{2} - 3 x y + 12 x z + 16 x - 10 y^{2} - 15 y z + 14 y - 6 z^{2} + 12 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $89$
+\begin{align*}
+    f(x, y, z) = 20 x^{2} + 2 x y - 8 x z + 2 x - 18 y^{2} - 8 y z + 10 y - 2 z^{2} + 2 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $90$
+\begin{align*}
+    f(x, y, z) = 16 x^{2} - 2 x y + x z + 9 x + y^{2} + 4 y z - y + 20 z^{2} + 12 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $91$
+\begin{align*}
+    f(x, y, z) = - 14 x y - 11 x z + 12 x - 16 y^{2} - 8 y z + 12 y - 20 z^{2} + 17 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $92$
+\begin{align*}
+    f(x, y, z) = - 13 x^{2} - 5 x y + 9 x z + 14 x + 2 y^{2} - 19 y z + 9 y - 14 z^{2} - 11 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $93$
+\begin{align*}
+    f(x, y, z) = - 4 x^{2} - 20 x y - 8 x z - 7 x - 15 y^{2} + 20 y z - 7 y + 6 z^{2} - 7 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $94$
+\begin{align*}
+    f(x, y, z) = - 12 x^{2} - 10 x y - 14 x z - 17 x + 19 y^{2} - 6 y - 4 z^{2} + 4 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $95$
+\begin{align*}
+    f(x, y, z) = 16 x^{2} + 7 x y + 18 x z + 19 x - 11 y^{2} + 4 y z + 16 y + 5 z^{2} + 6 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $96$
+\begin{align*}
+    f(x, y, z) = 16 x^{2} + 16 x y + 14 x z - 18 x + 18 y^{2} - 5 y z + 10 y + 7 z^{2} - 10 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $97$
+\begin{align*}
+    f(x, y, z) = - 4 x^{2} - 20 x y + 16 x z - 14 x - 6 y^{2} + 4 y z + 5 y - 19 z^{2} - 13 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $98$
+\begin{align*}
+    f(x, y, z) = - 15 x^{2} + 8 x y + 7 x z + 17 x + 5 y^{2} - 8 y z - 7 y - 14 z^{2} - 14 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $99$
+\begin{align*}
+    f(x, y, z) = 4 x^{2} - x z + 11 x - 4 y^{2} + y z + 11 y - 9 z^{2} + 13 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $100$
+\begin{align*}
+    f(x, y, z) = - 4 x^{2} - 8 x y - 16 x z + 14 x + 9 y^{2} - 2 y z - 15 y - 19 z^{2} + 19 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $101$
+\begin{align*}
+    f(x, y, z) = - 13 x^{2} - 17 x y - 11 x z + 19 x + 9 y^{2} + 10 y z + 9 y - 12 z^{2} + 13 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $102$
+\begin{align*}
+    f(x, y, z) = 14 x^{2} + 14 x y + 5 x z + 16 x - y^{2} + 8 y z + 16 y - 14 z^{2}
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $103$
+\begin{align*}
+    f(x, y, z) = - 3 x^{2} - 8 x z - 3 x - 4 y^{2} - 7 y z + 4 y - 3 z^{2} + 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $104$
+\begin{align*}
+    f(x, y, z) = x^{2} - 18 x y - 15 x z + 10 x - 19 y^{2} - 9 y z - 5 y - z^{2} - 11 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $105$
+\begin{align*}
+    f(x, y, z) = - 9 x^{2} - 10 x y - 15 x z - 9 x - 14 y^{2} - 3 y z - 6 y + 9 z^{2} + 7 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $106$
+\begin{align*}
+    f(x, y, z) = - 19 x^{2} - 10 x y - 3 x z - 5 x - 12 y^{2} + 16 y z - y + 20 z^{2} + z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $107$
+\begin{align*}
+    f(x, y, z) = 13 x^{2} + 9 x y + 11 x z - 9 x - 8 y^{2} + 11 y z + 17 y - 11 z^{2} - 10 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $108$
+\begin{align*}
+    f(x, y, z) = 15 x^{2} + 4 x y - 15 x z + 8 x - 13 y^{2} + 3 y z + 9 y - 12 z^{2} + 11 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $109$
+\begin{align*}
+    f(x, y, z) = - 8 x^{2} - 9 x y + 20 x z - 20 x - 19 y^{2} + 15 y z - 9 y - 9 z^{2} + 14 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $110$
+\begin{align*}
+    f(x, y, z) = - 14 x^{2} - 7 x y - 14 x z - 13 x + 2 y^{2} + 4 y z + 3 y - 9 z^{2} + 16 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $111$
+\begin{align*}
+    f(x, y, z) = - 10 x^{2} + 17 x y - 2 x z - 9 x + y^{2} + 5 y z + 2 y - 5 z^{2} + 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $112$
+\begin{align*}
+    f(x, y, z) = - 4 x^{2} + 18 x y - 17 x z - 15 x - 17 y^{2} - 5 y z - y - 8 z^{2} - 16 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $113$
+\begin{align*}
+    f(x, y, z) = - 14 x^{2} + 20 x y + 2 x z + 8 x - 15 y^{2} + 17 y z - 20 y - 2 z^{2} - 14 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $114$
+\begin{align*}
+    f(x, y, z) = - 20 x^{2} - 12 x y - 18 x z + 11 x - 11 y^{2} - 18 y z + 17 y + 3 z^{2} + 14 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $115$
+\begin{align*}
+    f(x, y, z) = - 10 x^{2} - 4 x y + x z - 18 x - 2 y^{2} + 11 y z + 2 y + 14 z^{2} - 6 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $116$
+\begin{align*}
+    f(x, y, z) = - 4 x^{2} - 5 x y + 13 x z - 17 x - 6 y^{2} - 15 y z + 17 y + 4 z^{2} - 5 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $117$
+\begin{align*}
+    f(x, y, z) = 2 x^{2} - 11 x y - 9 x z - 15 x - 20 y^{2} + 15 y z - 19 y - 5 z^{2} + 4 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $118$
+\begin{align*}
+    f(x, y, z) = - 10 x^{2} - 19 x y - 16 x z + 12 x - 12 y^{2} + 16 y z - 11 y - 6 z^{2}
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $119$
+\begin{align*}
+    f(x, y, z) = - 2 x^{2} - x y + 14 x z + 20 x - 10 y^{2} + 17 y z - 8 y - 7 z^{2} - 2 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $120$
+\begin{align*}
+    f(x, y, z) = 11 x^{2} + 10 x y + 7 x z - 4 x - 5 y z - 16 y - 18 z^{2} + 16 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $121$
+\begin{align*}
+    f(x, y, z) = - 2 x^{2} - 11 x y + 16 x z + 5 x - y^{2} - 7 y z + 3 y + 3 z^{2} + 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $122$
+\begin{align*}
+    f(x, y, z) = - 19 x^{2} + 2 x z - 13 x - 6 y^{2} + 16 y z + 9 y + 8 z^{2}
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $123$
+\begin{align*}
+    f(x, y, z) = - 10 x^{2} - 8 x y - 16 x z - 5 x - 19 y^{2} - 16 y z - 20 y - 3 z^{2} - 6 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $124$
+\begin{align*}
+    f(x, y, z) = - 14 x^{2} + 2 x y + 7 x z + 12 x - 13 y^{2} + 9 y z + 3 y + 9 z^{2} + 11 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $125$
+\begin{align*}
+    f(x, y, z) = 10 x^{2} - 17 x y + 6 x z + 19 x + 2 y^{2} + 12 y z - 19 y - 20 z^{2} - 18 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $126$
+\begin{align*}
+    f(x, y, z) = - 3 x^{2} + 3 x y - 16 x z + 8 x - 14 y^{2} - 20 y z - 8 y + 18 z^{2} - 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $127$
+\begin{align*}
+    f(x, y, z) = - 11 x^{2} - 18 x y - 20 x z + 7 x + 10 y^{2} + 14 y z + 5 y - 14 z^{2} + 20 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $128$
+\begin{align*}
+    f(x, y, z) = - 12 x^{2} + 5 x y - 16 x z - 16 x - 2 y^{2} - 2 y + 19 z^{2} - 20 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $129$
+\begin{align*}
+    f(x, y, z) = 20 x^{2} - 3 x y + 8 x z + 11 x + 14 y^{2} - 2 y z - 16 y + 6 z^{2} + 16 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $130$
+\begin{align*}
+    f(x, y, z) = 4 x^{2} - x y - 13 x z - 18 x - 5 y^{2} - 10 y z + 17 y - 19 z^{2} + 12 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $131$
+\begin{align*}
+    f(x, y, z) = - 18 x^{2} - x y + 17 x z + 3 x + 15 y z - 14 y + 16 z^{2} + 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $132$
+\begin{align*}
+    f(x, y, z) = - 4 x^{2} + 17 x y - 13 x z - 14 x - 10 y^{2} + 18 y z - 17 y - 11 z^{2} - 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $133$
+\begin{align*}
+    f(x, y, z) = - 10 x^{2} - 17 x y - 7 x z + 18 x - 9 y^{2} + 15 y z + 15 y + 4 z^{2} - 4 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $134$
+\begin{align*}
+    f(x, y, z) = - 19 x^{2} + 7 x y + 4 x z - 8 x - 14 y^{2} + 7 y z + 3 y + z^{2} + 6 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $135$
+\begin{align*}
+    f(x, y, z) = - 8 x^{2} - 19 x y + 11 x z + 2 x - 2 y^{2} - 18 y z + 5 y - 10 z^{2} - 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $136$
+\begin{align*}
+    f(x, y, z) = - 6 x^{2} + 11 x y + 12 x z + 5 x + 7 y^{2} + 10 y z + 2 z^{2} + 13 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $137$
+\begin{align*}
+    f(x, y, z) = - 15 x^{2} - 17 x y - 12 x z - 11 x - 6 y^{2} + 4 y z + 20 y - 13 z^{2} + 4 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $138$
+\begin{align*}
+    f(x, y, z) = - 17 x^{2} - 18 x y - 16 x z + 14 x + 18 y^{2} - 12 y z - 10 y - 6 z^{2} - 19 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $139$
+\begin{align*}
+    f(x, y, z) = 9 x^{2} - 7 x y + 3 x z - 13 x + 9 y^{2} - 17 y z - 17 y + 11 z^{2} - 18 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $140$
+\begin{align*}
+    f(x, y, z) = 11 x^{2} - 3 x y + 10 x z + 8 x - 16 y^{2} - 2 y z - 5 y - 7 z^{2} + 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $141$
+\begin{align*}
+    f(x, y, z) = 17 x^{2} + 13 x y + 2 x z - 19 x + y^{2} + 4 y z - 14 y - 18 z^{2} + 2 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $142$
+\begin{align*}
+    f(x, y, z) = - 20 x^{2} - 3 x y - 7 x z + x + 5 y^{2} - 3 y z - 6 y - 18 z^{2} - 13 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $143$
+\begin{align*}
+    f(x, y, z) = - 5 x^{2} - 20 x y + 11 x z - 6 x - 11 y^{2} + 14 y z + 18 y - 6 z^{2} + 11 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $144$
+\begin{align*}
+    f(x, y, z) = 4 x^{2} - 15 x y + 15 x z + 9 x + 11 y^{2} - 17 y z + 2 y - 16 z^{2} - 9 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $145$
+\begin{align*}
+    f(x, y, z) = - 5 x^{2} - 4 x y - 13 x z + x - 12 y^{2} + 8 y z - 11 y + 5 z^{2} - 14 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $146$
+\begin{align*}
+    f(x, y, z) = - 16 x^{2} + 18 x y + 16 x z + 13 x - 2 y^{2} + 4 y z - 14 y - 10 z^{2} - 10 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $147$
+\begin{align*}
+    f(x, y, z) = 14 x^{2} + 8 x y - x z - 16 x - 7 y^{2} - 10 y z - 6 y - 8 z^{2} + 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $148$
+\begin{align*}
+    f(x, y, z) = 6 x^{2} + 20 x y - 16 x z + 3 x - 10 y^{2} - 8 y z - 16 y + 3 z^{2} - 9 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $149$
+\begin{align*}
+    f(x, y, z) = 16 x^{2} - 15 x y + 16 x z + 3 x - 3 y^{2} - 6 y z - 19 y - 7 z^{2} + 5 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $150$
+\begin{align*}
+    f(x, y, z) = - 9 x^{2} + 4 x y - 8 x z - 5 x + 20 y^{2} - 18 y z - 7 y - 5 z^{2} + 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $151$
+\begin{align*}
+    f(x, y, z) = - 13 x y - 13 x z - 2 x - 8 y^{2} + 7 y z + 13 y - 5 z^{2} - 18 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $152$
+\begin{align*}
+    f(x, y, z) = - 7 x^{2} + 12 x y - 14 x z - 11 x + 8 y^{2} - 16 y z + 3 y + 6 z^{2} + 5 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $153$
+\begin{align*}
+    f(x, y, z) = 16 x^{2} + 6 x y - 20 x z - 14 x + 7 y^{2} - 2 y z - 8 y + 20 z^{2} - 2 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $154$
+\begin{align*}
+    f(x, y, z) = 2 x^{2} + 18 x y - 5 x z - 20 x + 20 y^{2} - 18 y z + 10 y - 15 z^{2} + 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $155$
+\begin{align*}
+    f(x, y, z) = 6 x y + 11 x z + 19 x - 19 y^{2} - 15 y z + 13 y + 17 z^{2} - 17 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $156$
+\begin{align*}
+    f(x, y, z) = - 5 x^{2} + 19 x y - 19 x z + 8 x - 8 y^{2} - 8 y z + 17 y - z^{2} + 10 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $157$
+\begin{align*}
+    f(x, y, z) = 7 x^{2} - 8 x y + 8 x z - 16 y^{2} + 11 y z - 4 y - 2 z^{2} - 8 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $158$
+\begin{align*}
+    f(x, y, z) = - 10 x^{2} + 14 x y + 2 x z - 6 x - 3 y^{2} + 10 y z + 14 y - 16 z^{2} + 5 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $159$
+\begin{align*}
+    f(x, y, z) = 13 x^{2} - 15 x y + 18 x z + 2 x + y z - 2 y - 9 z^{2} - 5 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $160$
+\begin{align*}
+    f(x, y, z) = - 12 x^{2} + 20 x y - 15 x z - 8 x + 19 y^{2} - 20 y z - 14 y - 11 z^{2} - 20 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $161$
+\begin{align*}
+    f(x, y, z) = - 11 x^{2} - 5 x y - x z + 14 x - 4 y^{2} - 9 y z + 19 y + 16 z^{2} + 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $162$
+\begin{align*}
+    f(x, y, z) = - 11 x^{2} + 14 x y + 5 x z - 20 x + 12 y^{2} - 3 y z - 14 y - 19 z^{2} - 8 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $163$
+\begin{align*}
+    f(x, y, z) = - 8 x^{2} - 18 x y - x z - 16 x - 20 y^{2} - 14 y z + 3 y + 9 z^{2} - 11 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $164$
+\begin{align*}
+    f(x, y, z) = - 3 x^{2} - 19 x y - 5 x z - 8 x + 10 y^{2} + y z + 7 y - 20 z^{2} - 14 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $165$
+\begin{align*}
+    f(x, y, z) = 2 x^{2} - 3 x y + 3 x z - 10 x - 14 y^{2} - 11 y z + 5 y - 20 z^{2} - 17 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $166$
+\begin{align*}
+    f(x, y, z) = - 13 x^{2} + 5 x y + 16 x z - 9 x - 10 y^{2} - 2 y z - 19 y + 2 z^{2} - 10 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $167$
+\begin{align*}
+    f(x, y, z) = 14 x^{2} - 8 x y + 19 x z + 9 x + 12 y^{2} - 15 y z - 13 y + 11 z^{2} + 15 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $168$
+\begin{align*}
+    f(x, y, z) = 2 x^{2} + 14 x y - 6 x z - 12 x - 13 y^{2} - 19 y z - 18 y - 13 z^{2} + 12 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $169$
+\begin{align*}
+    f(x, y, z) = - 3 x^{2} + 2 x y - 17 x z - 15 y^{2} - 4 y z + 17 y - 13 z^{2} - 16 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $170$
+\begin{align*}
+    f(x, y, z) = - 13 x^{2} - 12 x y + x - 4 y^{2} + 10 y z - 2 y - 7 z^{2} + 4 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $171$
+\begin{align*}
+    f(x, y, z) = - 3 x^{2} - 18 x y + 17 x z - 17 x + y^{2} - 20 y z + 19 y + 19 z^{2} - 19 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $172$
+\begin{align*}
+    f(x, y, z) = 17 x^{2} + 10 x y + 6 x z - 2 x - 9 y^{2} - 13 y z - 15 y - 17 z^{2} + 17 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $173$
+\begin{align*}
+    f(x, y, z) = - 10 x^{2} + 5 x y + 17 x z - 9 x - 5 y^{2} - 20 y z - 16 y - 13 z^{2} + 8 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $174$
+\begin{align*}
+    f(x, y, z) = 13 x^{2} - 14 x y - 11 x z + 11 x - 4 y z - 19 y - 6 z^{2} + 18 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $175$
+\begin{align*}
+    f(x, y, z) = - 18 x^{2} - 11 x y - 14 x z - 8 x - 17 y^{2} - 15 y z - y + 5 z^{2} - 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $176$
+\begin{align*}
+    f(x, y, z) = - 14 x^{2} - 19 x y - 18 x z - 15 x - 14 y^{2} + 20 y z - 3 y - 20 z^{2} - 3 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $177$
+\begin{align*}
+    f(x, y, z) = - 6 x^{2} + 4 x y + 5 x z - 13 x + 4 y^{2} - 14 y z - 6 y + 3 z^{2} - 16 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $178$
+\begin{align*}
+    f(x, y, z) = - 7 x^{2} - 14 x y + 15 x z - 5 x - 20 y^{2} + 18 y z - 5 y + 2 z^{2} - 18 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $179$
+\begin{align*}
+    f(x, y, z) = 14 x^{2} + 20 x y - 10 x z - 5 x + 5 y^{2} - y - 17 z^{2} - 2 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $180$
+\begin{align*}
+    f(x, y, z) = - 17 x^{2} - 11 x y + 8 x z - 19 x + 2 y^{2} - 13 y z - 20 y + 12 z^{2} - 10 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $181$
+\begin{align*}
+    f(x, y, z) = - 7 x^{2} + 10 x y + 12 x z - 14 x - 13 y^{2} + 20 y z + 10 y + 18 z^{2} + 6 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $182$
+\begin{align*}
+    f(x, y, z) = 8 x^{2} + 15 x y + 6 x z - 7 x - 10 y^{2} + 2 y z + 3 y - 17 z^{2} + 11 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $183$
+\begin{align*}
+    f(x, y, z) = - 20 x^{2} + 18 x y + 11 x z - 2 x + 16 y^{2} + 6 y z + 10 y - 6 z^{2} - 8 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $184$
+\begin{align*}
+    f(x, y, z) = 8 x^{2} - 4 x y + 12 x z + 9 x - 4 y^{2} - 3 y z + 8 y - 20 z^{2} - 8 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $185$
+\begin{align*}
+    f(x, y, z) = 20 x^{2} - 6 x y - 17 x z + 12 x - 12 y^{2} - 14 y z - 15 y - 16 z^{2} - 12 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $186$
+\begin{align*}
+    f(x, y, z) = - 5 x^{2} - 4 x y - 6 x z - 3 x - 5 y^{2} + 19 y z + 6 y + 18 z^{2} + 17 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $187$
+\begin{align*}
+    f(x, y, z) = - 16 x^{2} + 10 x y + 20 x z + y^{2} - 15 y z + 11 y - 2 z^{2} + 9 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $188$
+\begin{align*}
+    f(x, y, z) = - 5 x^{2} + 18 x y + 19 x z + 2 x + 10 y^{2} - 7 y z - 8 y - 12 z^{2} - 7 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $189$
+\begin{align*}
+    f(x, y, z) = 3 x^{2} + 9 x y - 16 x z - 5 x - 15 y^{2} + 16 y z - 13 y - 16 z^{2} + 9 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $190$
+\begin{align*}
+    f(x, y, z) = - 18 x^{2} + 4 x y - 15 x z + 3 x + 17 y^{2} - 7 y z - 16 y - 5 z^{2} - 14 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $191$
+\begin{align*}
+    f(x, y, z) = 10 x^{2} + 20 x y + 8 x z - 6 x - 16 y^{2} + y z - 2 y - 2 z^{2} - 4 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $192$
+\begin{align*}
+    f(x, y, z) = - 15 x^{2} - 5 x y + 17 x z + 15 x - 2 y^{2} + 6 y - 6 z^{2} + 19 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $193$
+\begin{align*}
+    f(x, y, z) = 13 x^{2} + 7 x y + 19 x z + 15 x - 5 y^{2} - 11 y z + 15 y - 14 z^{2} - 10 z
+\end{align*}
+\begin{center}
+\noindent\rule{8cm}{0.4pt}
+\end{center}
+Вариант $194$
+\begin{align*}
+    f(x, y, z) = - 6 x^{2} + 3 x y - 19 x z - 20 x - 18 y^{2} - 10 y z - 18 y - 8 z^{2} - 8 z
+\end{align*}
+
+\end{document}
